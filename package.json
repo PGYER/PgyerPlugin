@@ -1,6 +1,6 @@
 {
   "name": "pgyerplugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "蒲公英SDK Cordova插件",
   "main": "index.js",
   "scripts": {
