@@ -23,7 +23,6 @@
     
     NSString *ios_appid = [self getAppID];
     [[PgyManager sharedPgyManager] startManagerWithAppId:ios_appid];
-    [[PgyUpdateManager sharedPgyManager] checkUpdate];
     [[PgyManager sharedPgyManager] setFeedbackActiveType:kPGYFeedbackActiveTypeShake];
 }
 
