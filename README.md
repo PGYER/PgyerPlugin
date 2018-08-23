@@ -43,4 +43,3 @@ cordova.exec(success, error, 'PgyerPlugin', 'checkUpdate', [""]);
 下载[Demo工程](https://github.com/rikyou215/PgyerPluginDemo)
 
 
-
