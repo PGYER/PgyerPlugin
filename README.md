@@ -1,5 +1,4 @@
-                                              ## 蒲公英SDK Cordova插件
-
+                                            ### 蒲公英SDK Cordova插件
 
 ### 注册应用获取 App Key
 
