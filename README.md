@@ -24,19 +24,16 @@ function success(msg) {
 function error(msg) {
     alert('失败: ' + msg);
 }
-
 ```
 
 #### 用户反馈
 ```
 cordova.exec(success, error, 'PgyerPlugin', 'showFeedback', [""]);
-
 ```
 
 #### 检查更新
 ```
 cordova.exec(success, error, 'PgyerPlugin', 'checkUpdate', [""]);
-
 ```
 
 #### 备注
