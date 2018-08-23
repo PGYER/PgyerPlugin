@@ -1,3 +1,6 @@
+                                              ## 蒲公英SDK Cordova插件
+
+
 ### 注册应用获取 App Key
 
 App Key：唯一标识一个应用的 Key，在蒲公英上的每一个 App 都有一个唯一的 App Key，开发者可以在应用管理页面首页查看。
