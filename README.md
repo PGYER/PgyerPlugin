@@ -40,6 +40,6 @@ cordova.exec(success, error, 'PgyerPlugin', 'checkUpdate', [""]);
 #### 备注
 更多高级用法Android端修改PgyerPlugin.java文件，iOS端修改PgyerPlugin.h和PgyerPlugin.m文件，具体修改方式参考 [新版本Android SDK 集成指南](https://www.pgyer.com/doc/view/new_sdk_android_guide) 和 [iOS SDK 集成指南](https://www.pgyer.com/doc/view/sdk_ios_guide)。
 
-下载[Demo工程](https://github.com/rikyou215/PgyerPluginDemo)
+下载[Demo工程](https://github.com/Pgyer/PgyerPluginDemo)
 
 
