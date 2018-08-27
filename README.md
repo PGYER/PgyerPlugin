@@ -4,10 +4,11 @@ App Key：唯一标识一个应用的 Key，在蒲公英上的每一个 App 都�
 
 ![](https://static.pgyer.com/image/view/admin_images/1a2818d1f66c77a80970481b48a4145b)
 
-###安装插件
+### 安装插件
 
+```
 cordova plugin add pgyerplugin --variable ANDROID_APPID=[Android App Key] --variable IOS_APPID=[iOS App Key]
-
+```
 
 ###使用插件
 ####上报 Crash 异常
@@ -22,19 +23,16 @@ function success(msg) {
 function error(msg) {
     alert('失败: ' + msg);
 }
-
 ```
 
 ####用户反馈
 ```
 cordova.exec(success, error, 'PgyerPlugin', 'showFeedback', [""]);
-
 ```
 
 ####检查更新
 ```
 cordova.exec(success, error, 'PgyerPlugin', 'checkUpdate', [""]);
-
 ```
 
 ####备注
